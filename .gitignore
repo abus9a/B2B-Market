@@ -1,0 +1,23 @@
+.DS_Store
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node.js / frontend
+node_modules/
+.next/
+dist/
+build/
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
